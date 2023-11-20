@@ -7,14 +7,15 @@ This REST API project aims to provide a comprehensive set of user management end
 **User Management Endpoints:**
 
 The API provides endpoints for managing users, including creating, retrieving, updating, and deleting users. These endpoints allow clients to interact with user data in a controlled and structured manner.
-
+```
 HTTP Method | Endpoint      | Description |
 
 GET         | /users        | Retrieve all users  
 GET         | /users/go     | Get data from a specific user  
 POST        | /users/new    | Create a new user  
 DELETE      | /users/delete | Delete a specific user by ID  
-PUT         | /users/update | Update an existing user by ID  
+PUT         | /users/update | Update an existing user by ID
+```
 
 **Data Storage and Persistence:**
 
